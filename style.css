@@ -69,7 +69,7 @@ p {
 body {
     font-family: Arial, sans-serif; /* Fuente principal */
     padding: 20px; /* Espaciado interno */
-    background-image: url('./Content/gif/fondo.gif');
+    background-image: url('content/gif/fondo.gif');
     background-size: cover;
 }
 
@@ -98,7 +98,7 @@ footer h5 {
 
 @media only screen and (max-width: 600px) {
 
-    body {background-image: url(./Content/gif/fondo.gif);}
+    body {background-image: url(content/gif/fondo.gif);}
     fieldset{width: 75vw;}
     
 }
