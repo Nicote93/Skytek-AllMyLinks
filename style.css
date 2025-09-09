@@ -15,6 +15,21 @@ p {
     color:whitesmoke;
 }
 
+.cont-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre GIF y video */
+    padding: 10px 0;
+    flex-wrap: wrap; /* Para que se acomode bien en pantallas pequeñas */
+}
+
+.contacto {
+    width: 15vw;    /* Tamaño de los GIFs */
+    height: auto;
+    border: 4px dotted tomato;
+}
+
 .contenedor-banner {
     display: flex;
     justify-content: center;
